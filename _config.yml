@@ -1,7 +1,9 @@
 title: 论文笔记
 description: note for read paper
 
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 readme_index:
   with_frontmatter: true
